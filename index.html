@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LushShine – Automotive Detailing</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #0f0f0f; color: white; }
+        header, footer { text-align: center; padding: 2rem; background: #1a1a1a; }
+        nav { display: flex; justify-content: center; gap: 1.5rem; background: #111; padding: 1rem; }
+        nav a { color: #f0c000; text-decoration: none; }
+        section { padding: 2rem; max-width: 1000px; margin: auto; }
+        h1, h2 { color: #f0c000; }
+        ul li { margin-bottom: .5rem; }
+        .gallery img { width: 48%; margin: 1%; border-radius: 6px; }
+        form input, form select, form button {
+            width: 100%; padding: 0.8rem; margin: 0.5rem 0; border-radius: 4px; border: none;
+        }
+        form input, form select { background: #222; color: white; }
+        form button { background: #f0c000; color: black; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LushShine</h1>
+        <p>Profesionalus automobilių blizginimas Naujojoje Akmenėje</p>
+    </header>
+    <nav>
+        <a href="#about">Apie</a><a href="#services">Paslaugos</a><a href="#gallery">Galerija</a><a href="#reviews">Atsiliepimai</a><a href="#contact">Kontaktai</a>
+    </nav>
+    <section id="about">
+        <h2>Apie mus</h2>
+        <p>LushShine – tai modernus automobilių valymo verslas Naujojoje Akmenėje. Kiekvienas automobilis nusipelno spindėti!</p>
+    </section>
+    <section id="services">
+        <h2>Paslaugos</h2>
+        <ul>
+            <li>Eksterjero plovimas – nuo £15</li>
+            <li>Interjero giluminis valymas – nuo £25</li>
+            <li>Pilnas detailing'as – nuo £60</li>
+            <li>Keramikinė danga – nuo £90</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Galerija</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/400x250?text=Prieš+1">
+            <img src="https://via.placeholder.com/400x250?text=Po+1">
+        </div>
+    </section>
+    <section id="reviews">
+        <h2>Atsiliepimai</h2>
+        <p>„Po plovimo automobilis atrodo kaip naujas!“ – Tomas, Naujoji Akmenė</p>
+        <p>„Puikus ir greitas aptarnavimas, tikrai sugrįšiu.“ – Rasa, Venta</p>
+    </section>
+    <section id="contact">
+        <h2>Kontaktai</h2>
+        <p>Tel: +44 7979 123679</p>
+        <p>El. paštas: lukassteponavicius4@gmail.com</p>
+        <form>
+            <input type="text" placeholder="Jūsų vardas" required>
+            <input type="tel" placeholder="Telefono numeris" required>
+            <select>
+                <option>Pasirinkite paslaugą</option>
+                <option>Eksterjero plovimas</option>
+                <option>Interjero valymas</option>
+                <option>Pilnas detailingas</option>
+            </select>
+            <input type="date" required>
+            <button type="submit">Siųsti užklausą</button>
+        </form>
+    </section>
+    <footer>
+        &copy; 2025 LushShine. Visos teisės saugomos.
+    </footer>
+</body>
+</html>
