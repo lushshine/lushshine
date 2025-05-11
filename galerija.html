@@ -5,27 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galerija - LushShine</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+  </style>
 </head>
 <body>
   <div class="overlay">
     <header>
-      <img src="logo.png" alt="LushShine logo" style="height: 60px;">
+      <h1>Galerija</h1>
       <nav>
-        <a href="index.html">Apie</a> |
-        <a href="paslaugos.html">Paslaugos</a> |
-        <a href="galerija.html">Galerija</a> |
-        <a href="atsiliepimai.html">Atsiliepimai</a> |
+        <a href="index.html">Apie</a>
+        <a href="paslaugos.html">Paslaugos</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="atsiliepimai.html">Atsiliepimai</a>
         <a href="kontaktai.html">Kontaktai</a>
+        <a href="form.html">Užsakymas</a>
+        <a href="admin.html">Admin</a>
       </nav>
     </header>
 
-    <section>
-      <h2>Mūsų darbai</h2>
-      <p>Nuotraukos prieš ir po bus greitu metu.</p>
+    <section class="gallery">
+      <img src="gallery1.jpg" alt="Prieš valymą">
+      <img src="gallery2.jpg" alt="Durų būklė">
+      <img src="gallery3.jpg" alt="Salonas prieš valymą">
+      <img src="gallery4.jpg" alt="Galerijos papildymas">
     </section>
 
     <footer>
-      <p>&copy; 2025 LushShine.</p>
+      <p>&copy; 2025 LushShine. Visos teisės saugomos.</p>
     </footer>
   </div>
 </body>
