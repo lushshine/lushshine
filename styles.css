@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('fonas-su-putomis.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 40px;
+}
+header {
+  text-align: center;
+  padding: 40px 0;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+section {
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+h3 {
+  font-size: 28px;
+  margin-top: 40px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
