@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Užsakymo forma - LushShine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Užsakymo forma</h1>
+      <nav>
+        <a href="index.html">Apie</a>
+        <a href="paslaugos.html">Paslaugos</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="atsiliepimai.html">Atsiliepimai</a>
+        <a href="kontaktai.html">Kontaktai</a>
+      </nav>
+    </header>
+
+    <section>
+      <form action="mailto:lukassteponavicius4@gmail.com" method="post" enctype="text/plain">
+        <label>Vardas:<br><input type="text" name="vardas" required></label><br><br>
+        <label>Telefono numeris:<br><input type="text" name="telefonas" required></label><br><br>
+        <label>Paslauga:<br>
+          <select name="paslauga">
+            <option value="Isorinis plovimas">Išorinis plovimas</option>
+            <option value="Vidaus valymas">Vidaus valymas</option>
+            <option value="Cheminis valymas">Cheminis salono valymas</option>
+            <option value="Poliravimas">Poliravimas</option>
+            <option value="Variklio plovimas">Variklio plovimas</option>
+            <option value="Ceramika">Ceramikos dengimas</option>
+          </select>
+        </label><br><br>
+        <label>Trumpas komentaras:<br><textarea name="komentaras" rows="5" cols="40"></textarea></label><br><br>
+        <input type="submit" value="Siųsti">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 LushShine.</p>
+    </footer>
+  </div>
+</body>
+</html>

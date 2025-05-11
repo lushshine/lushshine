@@ -3,45 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LushShine - Automobilių Plovimo Ekspertai</title>
+  <title>LushShine</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      nav {
+        display: block;
+        padding: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="overlay">
     <header>
-      <h1>LushShine</h1>
-      <h2>Automobilių Plovimo Ekspertai</h2>
+      <img src="logo.png" alt="LushShine logo" style="height: 60px; display: block; margin: 0 auto;">
+      <nav>
+        <a href="index.html">Apie</a>
+        <a href="paslaugos.html">Paslaugos</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="atsiliepimai.html">Atsiliepimai</a>
+        <a href="kontaktai.html">Kontaktai</a>
+      </nav>
     </header>
 
     <section>
-      <h3>Apie mus</h3>
-      <p>„LushShine“ – tai profesionali automobilių plovimo paslaugų įmonė, įsikūrusi Naujojoje Akmenėje...</p>
-
-      <h3>Mūsų paslaugos</h3>
-      <ul>
-        <li>Išorinis automobilių plovimas</li>
-        <li>Vidaus valymas ir cheminis valymas</li>
-        <li>Vaškavimas ir poliravimas</li>
-        <li>Variklio plovimas</li>
-        <li>Specialūs pasiūlymai įmonėms</li>
-      </ul>
-
-      <h3>Kodėl rinktis mus?</h3>
-      <ul>
-        <li>Patyrusi ir kvalifikuota komanda</li>
-        <li>Naudojame ekologiškas ir saugias priemones</li>
-        <li>Greitas ir kokybiškas aptarnavimas</li>
-        <li>Konkurencingos kainos</li>
-        <li>Lankstus darbo grafikas</li>
-      </ul>
-
-      <h3>Kontaktai</h3>
-      <p>📍 Naujoji Akmenė, Lietuva<br>
-         📞 +370 612 34567<br>
-         ✉️ info@lushshine.lt<br>
-         🌐 www.lushshine.lt
-      </p>
+      <h2>Apie mus</h2>
+      <p>„LushShine“ – profesionali automobilių plovimo paslaugų įmonė, įsikūrusi Naujojoje Akmenėje. Dirbame nuoširdžiai, švariai ir visada su tikslu – kad jūsų automobilis spindėtų kaip naujas.</p>
     </section>
+
+    <footer>
+      <p>&copy; 2025 LushShine. Sukurta Lietuvoje.</p>
+    </footer>
   </div>
 </body>
 </html>
